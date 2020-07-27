@@ -28,3 +28,8 @@ export function calcBrand(brand) {
 export function getPlan(plan) {
   return (plan === 'basico') ? 1.20 : 1.50;
 }
+
+//Mesta la primera letra en mayuscula
+export function firstMayus(text) {
+  return text.charAt(0).toUpperCase() + text.slice(1); 
+}
